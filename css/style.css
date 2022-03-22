@@ -446,15 +446,14 @@ section {
     font-size: 2.5rem;
   }
 
-  .contact .row form .inputBox input {
-    width: 100%;
-    margin-bottom: 1rem;
-  }
-
   .contact .row form {
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+  .contact .row form .inputBox input {
+    width: 100%;
+    margin-bottom: 1rem;
   }
   .contact .row form .btn {
     align-self: center;

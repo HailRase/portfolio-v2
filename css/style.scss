@@ -462,16 +462,22 @@ section{
       }
     }
   }
-  .contact .row form .inputBox input{
-    width: 100%;
-    margin-bottom: 1rem;
-  }
-  .contact .row form{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    .btn{
-      align-self: center;
+  .contact {
+    .row {
+      form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .inputBox {
+          input {
+            width: 100%;
+            margin-bottom: 1rem;
+          }
+        }
+        .btn{
+          align-self: center;
+        }
+      }
     }
   }
 }
